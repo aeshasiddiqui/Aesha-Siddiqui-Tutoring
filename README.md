@@ -14,9 +14,15 @@ The page includes:
 
 1. A home section with a short introduction.
 2. A services section for tutoring options.
-3. A pricing section.
-4. A contact section with a message form.
-5. A navigation menu at the top of the page.
+3. An about section explaining the tutoring approach.
+4. A step-by-step process section.
+5. A services and rates section with package options.
+6. A referral section.
+7. A testimonials and success stories section.
+8. A scheduling section with a sample calendar.
+9. A website tools section.
+10. A contact section with a consultation request form.
+11. A navigation menu at the top of the page.
 
 ## How to open the website
 
@@ -76,7 +82,7 @@ After making a change:
 2. Check the part of the page you changed.
 3. Try the menu links at the top.
 4. Make sure the page still looks good on a smaller screen, such as a phone-sized browser window.
-5. If you changed the contact form, type into the form and click **Send Message** to make sure the message area still responds.
+5. If you changed the contact form, type into the form and click **Send Consultation Request** to make sure the message area still responds.
 
 ## Important files
 

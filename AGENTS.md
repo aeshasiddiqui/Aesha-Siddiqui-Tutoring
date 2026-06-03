@@ -26,6 +26,16 @@ After making changes:
 2. List any files that were changed.
 3. Explain how the user can try it out or check it.
 
+## Commit rules
+
+After completing requested changes, create a git commit unless the user says not to.
+
+When committing:
+
+1. Use a clear commit title.
+2. Include a short commit description explaining what changed.
+3. Mention any important testing or checks that were run.
+
 ## Bigger asks
 
 Some requests may be too large, risky, or unclear to complete safely in one pass. Examples include:
