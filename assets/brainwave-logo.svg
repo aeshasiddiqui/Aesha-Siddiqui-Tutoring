@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Brainwave Tutoring logo</title>
+  <desc id="desc">A soft pastel brainwave logo with the words Brainwave Tutoring.</desc>
+  <defs>
+    <filter id="paper" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="8" result="noise" />
+      <feColorMatrix in="noise" type="saturate" values="0" />
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.09" />
+      </feComponentTransfer>
+      <feBlend in="SourceGraphic" mode="multiply" />
+    </filter>
+  </defs>
+  <rect width="1200" height="1200" fill="#fff7e8" />
+  <g filter="url(#paper)">
+    <path d="M334 428c-12-70 40-129 104-133 35-48 99-64 147-45 29 12 31 47 8 67-17 15-44 17-71 15-40-2-65 11-79 45-10 24-32 24-51 34-22 12-38 30-58 57z" fill="#92a08d" />
+    <path d="M438 401c32-8 39-51 83-48 58 4 85-2 100-33 12-25 16-57 67-72 47-14 83 1 92 28 9 28-4 53-41 79-39 28-54 55-52 100 2 42-24 61-62 45-27-11-43-36-66-34-28 3-32 48-64 59-34 11-43-24-59-67-10-25-27-35-58-26-18 5-33 0-40-12-8-13-3-24 20-19z" fill="#dc8d71" />
+    <path d="M703 271c60-19 140 14 156 61 11 32-11 50-64 45-48-5-75 7-88 45-9 27-27 40-52 43-39 4-58-31-41-74 13-33 45-49 62-75 7-11 6-25 27-45z" fill="#9b8aa5" />
+    <path d="M721 416c23-23 53-32 82-24 28 8 49-7 61-31 65 5 103 62 97 107-4 30-32 38-64 25-38-15-67-8-91 28-29 45-75 32-82-19-3-23-17-48-3-86z" fill="#dfb65d" />
+    <path d="M317 457c47-46 82-36 106 26 13 33 27 43 50 15 21-25 20-90 45-96 25-6 30 83 50 111 18 27 39 16 48-34 8-45 45-43 66 1 20 43 37 55 70 20 31-33 52-37 81-5 28 31 56 32 91 8 20-13 43-6 61 17 21 26 20 58 6 74-18 20-48 17-75 3-44-23-58-17-82 39-21 50-70 59-93 20-16-27-30-31-67-16-47 19-90 17-132-2-28-13-49-10-84 5-53 23-106 10-134-34-30-47-53-56-92-34-34 19-70 9-84-23 0-45 54-45 86-25 41 26 59 16 80-70z" fill="#586b83" opacity=".88" />
+    <path d="M832 590c44-28 61-59 82-110 36-8 65 23 77 78 11 51-3 94-47 112-40 16-75 4-101 31-31 33-65 27-82-13-16-38-5-72 31-90 12-6 21-7 40-8z" fill="#8ea083" />
+    <path d="M413 577c55-29 92-15 126 23 29 33 69 31 107 11 47-24 79-14 110 31 19 28 22 59 5 78-20 23-55 17-86-11-29-26-57-35-97-13-55 31-116 29-167-7-24-17-57-20-75-44-18-24-5-58 77-68z" fill="#8fa8ae" />
+    <path d="M674 703c32-37 87-17 117-43 40-35 69-36 94-12 21 20 18 56-10 80-24 21-62 26-89 61-29 38-73 35-91-7-8-18-23-23-48-21-25 1-43-16-41-38 2-22 28-36 68-20z" fill="#93a583" />
+    <path d="M208 444c22 17 50 23 78 28" fill="none" stroke="#d9ad61" stroke-width="10" stroke-linecap="round" />
+    <path d="M230 378l45 36" fill="none" stroke="#d9ad61" stroke-width="10" stroke-linecap="round" />
+    <path d="M319 329l18 45" fill="none" stroke="#d9ad61" stroke-width="10" stroke-linecap="round" />
+    <path d="M937 343c18 32 18 45 52 61-30 11-44 30-48 66-18-34-22-48-55-61 28-11 39-29 51-66z" fill="#8ea083" />
+    <path d="M215 510c12 29 25 42 57 49-31 12-44 26-54 61-13-31-29-45-58-54 30-12 44-25 55-56z" fill="#9b8aa5" />
+    <circle cx="988" cy="446" r="14" fill="#dc8d71" />
+    <circle cx="968" cy="518" r="14" fill="#9b8aa5" />
+    <circle cx="986" cy="586" r="10" fill="#8ea083" />
+    <circle cx="500" cy="663" r="22" fill="#9b8aa5" />
+    <circle cx="430" cy="683" r="18" fill="#dfb65d" />
+    <path d="M166 930c37 31 68-21 107 4" fill="none" stroke="#dc8d71" stroke-width="14" stroke-linecap="round" />
+    <path d="M949 930c43-26 69 20 111-4" fill="none" stroke="#8ea083" stroke-width="14" stroke-linecap="round" />
+    <text x="600" y="835" text-anchor="middle" fill="#586b83" font-family="Georgia, serif" font-size="168" font-weight="700" letter-spacing="-8">brainwave</text>
+    <text x="600" y="940" text-anchor="middle" fill="#586b83" font-family="Trebuchet MS, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="28">TUTORING</text>
+  </g>
+</svg>

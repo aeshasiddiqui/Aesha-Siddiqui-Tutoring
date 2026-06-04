@@ -28,8 +28,6 @@ After making changes:
 
 ## Commit rules
 
-After completing requested changes, create a git commit unless the user says not to.
-
 When committing:
 
 1. Use a clear commit title.

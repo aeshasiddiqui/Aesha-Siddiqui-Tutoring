@@ -1,10 +1,11 @@
-# Aesha Siddiqui Tutoring Website
+# Brainwave Tutoring Website
 
-This folder contains a simple tutoring website for Aesha Siddiqui Tutoring. It is a small website made from three main files:
+This folder contains a simple tutoring website for Brainwave Tutoring. It is a small website made from a few main files and one image folder:
 
 - `index.html` controls the words and page sections.
 - `styles.css` controls the colors, spacing, layout, and overall look.
 - `script.js` controls small interactive parts of the page.
+- `assets` stores image files, including the Brainwave Tutoring logo.
 
 You do not need a special app account or an online service to view the website while editing it.
 
@@ -14,13 +15,13 @@ The page includes:
 
 1. A home section with a short introduction.
 2. A services section for tutoring options.
-3. An about section explaining the tutoring approach.
-4. A step-by-step process section.
-5. A services and rates section with package options.
-6. A referral section.
-7. A testimonials and success stories section.
-8. A scheduling section with a sample calendar.
-9. A website tools section.
+3. A resources section with free links for students and parents.
+4. An about section explaining the tutoring approach.
+5. A step-by-step process section.
+6. A services and rates section with package options.
+7. A referral section.
+8. A testimonials and success stories section.
+9. A scheduling section with a sample calendar.
 10. A contact section with a consultation request form.
 11. A navigation menu at the top of the page.
 
@@ -55,10 +56,10 @@ Most words shown on the website are in `index.html`.
 For example, to change the email address shown on the page, look for:
 
 ```html
-hello@example.com
+aeshasiddiqui.brainwave@gmail.com
 ```
 
-Then replace it with the correct email address.
+Then replace it with a different email address if the business email changes.
 
 ## How to change colors or spacing
 

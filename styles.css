@@ -105,14 +105,20 @@ h3 {
 }
 
 .brand-mark {
-  width: 42px;
-  height: 42px;
-  display: grid;
-  place-items: center;
+  width: 52px;
+  height: 52px;
+  display: block;
+  overflow: hidden;
   border-radius: var(--radius);
-  background: var(--green);
-  color: white;
-  font-size: 0.9rem;
+  background: var(--surface);
+  box-shadow: 0 6px 16px rgba(38, 48, 46, 0.12);
+}
+
+.brand-mark img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .brand-text {
@@ -167,6 +173,7 @@ h3 {
 .hero-inner {
   display: grid;
   grid-template-columns: minmax(0, 720px);
+  align-items: center;
   padding: 88px 0;
 }
 
@@ -272,20 +279,20 @@ h3 {
 }
 
 .service-grid,
-.testimonial-grid,
-.tool-grid {
+.resource-grid,
+.testimonial-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
 }
 
 .service-card,
+.resource-card,
 .hourly-card,
 .package-list article,
 .testimonial-card,
 .story-card,
 .calendar-card,
-.tool-grid article,
 .contact-form {
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -312,12 +319,49 @@ h3 {
 }
 
 .service-card p,
+.resource-card p,
 .package-list p,
 .testimonial-card p,
-.story-card p,
-.tool-grid p {
+.story-card p {
   margin: 12px 0 0;
   color: var(--muted);
+}
+
+.resources-section {
+  background: #edf4f1;
+}
+
+.section-head p {
+  margin: 12px 0 0;
+  color: var(--muted);
+}
+
+.resource-card {
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  padding: 22px;
+}
+
+.resource-card span {
+  color: var(--coral);
+  font-size: 0.76rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.resource-card h3 {
+  margin-top: 14px;
+}
+
+.resource-card a {
+  margin-top: auto;
+  color: var(--green-dark);
+  font-weight: 900;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
 }
 
 .steps-list {
@@ -391,24 +435,20 @@ h3 {
 
 .package-list article,
 .testimonial-card,
-.story-card,
-.tool-grid article {
+.story-card {
   padding: 20px;
 }
 
-.referral-section,
-.tools-section {
+.referral-section {
   background: var(--green-dark);
   color: white;
 }
 
-.referral-section .eyebrow,
-.tools-section .eyebrow {
+.referral-section .eyebrow {
   color: #ffd8c8;
 }
 
-.referral-section p,
-.tools-section p {
+.referral-section p {
   color: rgba(255, 255, 255, 0.78);
 }
 
@@ -510,16 +550,6 @@ h3 {
   background: #edf4f1;
 }
 
-.tool-grid {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.tool-grid article {
-  background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.18);
-  box-shadow: none;
-}
-
 .contact-details {
   display: grid;
   gap: 8px;
@@ -601,13 +631,11 @@ h3 {
 
 @media (max-width: 1000px) {
   .service-grid,
+  .resource-grid,
   .steps-list {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .tool-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 @media (max-width: 860px) {
@@ -666,9 +694,9 @@ h3 {
   }
 
   .service-grid,
+  .resource-grid,
   .steps-list,
   .check-list,
-  .tool-grid,
   .calendar-grid {
     grid-template-columns: 1fr;
   }
